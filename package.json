@@ -1,7 +1,7 @@
 {
 	"name": "vue-telegram-logger",
 	"private": false,
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"type": "module",
 	"description": "Vue Telegram Logger (VTL) - small package for Vuejs to send your messages to Telegram group",
 	"scripts": {
@@ -32,12 +32,12 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/aslbekkucharov/vue-telegram-logger.git"
+		"url": "git+https://github.com/aslbekkucharov/vtl.git"
 	},
 	"bugs": {
-		"url": "https://github.com/aslbekkucharov/vue-telegram-logger/issues"
+		"url": "https://github.com/aslbekkucharov/vtl/issues"
 	},
-	"homepage": "https://github.com/aslbekkucharov/vue-telegram-logger#readme",
+	"homepage": "https://github.com/aslbekkucharov/vtl#readme",
 	"main": "./dist/vue-telegram-logger.cjs.js",
 	"module": "./dist/vue-telegram-logger.js",
 	"typings": "./dist/vue-telegram-logger.d.ts",
