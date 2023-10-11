@@ -20,9 +20,9 @@ Vue.use(Vtl, options)
 
 ```
 
-## Examples
+## Example
 
-### Sending message
+#### Sending message
 
 ```js
 // SomeVueComponent.vue
