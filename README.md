@@ -40,7 +40,7 @@ $vtl.sendLog('Your message')
 ## Options
 | Param                           | Default value | Required | Description                              |
 |:--------------------------------|:--------------|:---------|:-----------------------------------------|
-| chatId `string | number`        | -             |          | Your chat id where messages will be sent |
+| chatId `string or number`        | -             |          | Your chat id where messages will be sent |
 | token `string`                  | -             |          | Telegram bot token                       |
 
 ## License
