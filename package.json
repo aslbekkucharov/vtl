@@ -32,12 +32,12 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/aslbekkucharov/vue-telegram-error-logger.git"
+		"url": "git+https://github.com/aslbekkucharov/vue-telegram-logger.git"
 	},
 	"bugs": {
-		"url": "https://github.com/aslbekkucharov/vue-telegram-error-logger/issues"
+		"url": "https://github.com/aslbekkucharov/vue-telegram-logger/issues"
 	},
-	"homepage": "https://github.com/aslbekkucharov/vue-telegram-error-logger#readme",
+	"homepage": "https://github.com/aslbekkucharov/vue-telegram-logger#readme",
 	"main": "./dist/vue-telegram-logger.cjs.js",
 	"module": "./dist/vue-telegram-logger.js",
 	"typings": "./dist/vue-telegram-logger.d.ts",
