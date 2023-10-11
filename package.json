@@ -1,0 +1,48 @@
+{
+	
+  "name": "vtl",
+	
+  "private": false,
+	
+  "version": "0.0.0",
+	
+  "type": "module",
+	
+  "scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	
+  "devDependencies": {
+		"rollup-plugin-typescript-paths": "^1.4.0",
+		"@types/node-telegram-bot-api": "^0.61.8",
+		"@rollup/plugin-typescript": "^11.1.5",
+		"@types/node": "^20.8.4",
+		"typescript": "^5.0.2",
+		"tslib": "^2.6.2",
+		"vite": "^4.4.5"
+	},
+
+	"main": "./dist/vue-telegram-error-logger.cjs.js",
+	
+  "module": "./dist/vue-telegram-error-logger.js",
+	
+  "typings": "./dist/vue-telegram-error-logger.d.ts",
+	
+  "files": [
+		"dist"
+	],
+	
+  "exports": {
+		".": {
+			"import": "./dist/vue-telegram-error-logger.js",
+			"require": "./dist/vue-telegram-error-logger.cjs.js"
+		}
+	},
+	
+  "dependencies": {
+		"axios": "^1.5.1",
+		"vite-plugin-node-polyfills": "^0.15.0"
+	}
+}
