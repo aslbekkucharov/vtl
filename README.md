@@ -5,10 +5,10 @@
 
 Via package managers
 ```sh
-$ npm install ikpu-mxik
+$ npm install vtl
 
 # yarn
-$ yarn add ikpu-mxik
+$ yarn add vtl
 ```
 
 ## Usage
