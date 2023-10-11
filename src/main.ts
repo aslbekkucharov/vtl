@@ -2,21 +2,25 @@ import { LoggerPlugin } from "src/core"
 import type { LibOptionsTypes } from 'src/types/index';
 
 const Vtl = {
-    install(app: any, options: LibOptionsTypes) {
-
-        console.log(app);
-        
-
+    install(Vue: any, options: LibOptionsTypes) {
         const logger = new LoggerPlugin(options)
-        const vueVersion = app.version.split('.')[0]
+        const vueVersion = Vue.version.split('.')[0]
 
         switch (vueVersion) {
             case '2':
-                console.log(app)
+
+                if (Vue.prototype.$vtl) {
+                    return
+                }
+
+                Object.defineProperty(Vue.prototype, '$vtl', {
+                    get: () => logger
+                })
+
                 break
 
             case '3':
-                app.provide('$vtl', logger)
+                Vue.provide('$vtl', logger)
                 break
 
             default:

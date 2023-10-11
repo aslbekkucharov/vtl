@@ -1,7 +1,7 @@
 {
 	"name": "vue-telegram-logger",
 	"private": false,
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"type": "module",
 	"description": "Vue Telegram Logger (VTL) - small package for Vuejs to send your messages to Telegram group",
 	"scripts": {
