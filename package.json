@@ -1,5 +1,5 @@
 {
-	"name": "vtl",
+	"name": "vue-telegram-logger",
 	"private": false,
 	"version": "1.0.0",
 	"type": "module",
@@ -38,16 +38,16 @@
 		"url": "https://github.com/aslbekkucharov/vue-telegram-error-logger/issues"
 	},
 	"homepage": "https://github.com/aslbekkucharov/vue-telegram-error-logger#readme",
-	"main": "./dist/vue-telegram-error-logger.cjs.js",
-	"module": "./dist/vue-telegram-error-logger.js",
-	"typings": "./dist/vue-telegram-error-logger.d.ts",
+	"main": "./dist/vue-telegram-logger.cjs.js",
+	"module": "./dist/vue-telegram-logger.js",
+	"typings": "./dist/vue-telegram-logger.d.ts",
 	"files": [
 		"dist"
 	],
 	"exports": {
 		".": {
-			"import": "./dist/vue-telegram-error-logger.js",
-			"require": "./dist/vue-telegram-error-logger.cjs.js"
+			"import": "./dist/vue-telegram-logger.js",
+			"require": "./dist/vue-telegram-logger.cjs.js"
 		}
 	},
 	"dependencies": {

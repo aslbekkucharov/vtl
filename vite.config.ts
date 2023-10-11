@@ -19,7 +19,7 @@ export default defineConfig({
 
         lib: {
             formats: ["es", "cjs"],
-            fileName: "vue-telegram-error-logger",
+            fileName: "vue-telegram-logger",
             entry: path.resolve(__dirname, "src/main.ts")
         },
 
