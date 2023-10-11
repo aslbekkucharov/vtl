@@ -1,7 +1,7 @@
 import { LoggerPlugin } from "src/core"
 import type { LibOptionsTypes } from 'src/types/index';
 
-const VueTelegramErrorLogger = {
+const Vtl = {
     install(app: any, options: LibOptionsTypes) {
 
         const logger = new LoggerPlugin(options)
@@ -11,4 +11,4 @@ const VueTelegramErrorLogger = {
     }
 }
 
-export { VueTelegramErrorLogger }
+export { Vtl }
