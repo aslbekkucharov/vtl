@@ -15,6 +15,7 @@ export default defineConfig({
     build: {
         minify: true,
         manifest: true,
+        target: 'es2015',
         reportCompressedSize: true,
 
         lib: {
@@ -26,11 +27,11 @@ export default defineConfig({
         rollupOptions: {
 
             plugins: [
-                
+
                 typescriptPaths({
                     preserveExtensions: true,
                 }),
-                
+
                 typescript({
                     sourceMap: false,
                     declaration: true,

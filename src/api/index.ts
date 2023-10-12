@@ -1,6 +1,6 @@
 import { AxiosInstance } from 'axios'
-import { LibOptionsTypes } from "src/types"
-import { createHttpClient } from "src/shared"
+import { createHttpClient } from "../shared"
+import { LibOptionsTypes, LogMessageType } from "src/types"
 
 class Telegram {
     private apiUrl: string
@@ -12,8 +12,9 @@ class Telegram {
         this.http = createHttpClient({ baseURL: this.apiUrl }, options.token, options.chatId)
     }
 
-    sendMessage(message: string) {
+    sendMessage(message: LogMessageType, options?: object) {
         return this.http.post('/sendMessage', {
+            ...options,
             text: message
         })
     }
