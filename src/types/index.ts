@@ -6,5 +6,5 @@ export interface LibOptionsTypes {
 }
 
 export interface LogOptions {
-    sendAsCode?: boolean
+    shouldBeFormatted?: boolean
 }

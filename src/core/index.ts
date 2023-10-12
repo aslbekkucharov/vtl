@@ -12,10 +12,10 @@ class LoggerPlugin {
 
     public sendLog(message: LogMessageType, options?: LogOptions) {
 
-        if (options?.sendAsCode) {
-            
+        if (options?.shouldBeFormatted) {
+
             message = pretty(message)
-            
+
             return this.bot.sendMessage('<code>' + message + '</code>', { parse_mode: 'html' })
         }
 
@@ -23,4 +23,4 @@ class LoggerPlugin {
     }
 }
 
-export {  LoggerPlugin }
+export { LoggerPlugin }
