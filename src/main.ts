@@ -30,8 +30,4 @@ const Vtl = {
     }
 }
 
-const plugin = new LoggerPlugin({ token: '6317048249:AAHGNQy9DJQJVAvF4O8nedGgY0B8l4Ia9lE', chatId: -1001976912026 })
-
-plugin.sendLog({ name: 'Aslbek', nationality: { lang: 'uz', nat: 'Uzbek' } }, { shouldBeFormatted: true })
-
 export { Vtl }
