@@ -1,5 +1,5 @@
 import { Telegram } from '../api'
-import beautify from 'json-beautify'
+import { pretty } from 'js-object-pretty-print'
 import { LibOptionsTypes, LogMessageType, LogOptions } from "src/types"
 
 class LoggerPlugin {
@@ -14,7 +14,7 @@ class LoggerPlugin {
 
         if (options?.sendAsCode) {
             
-            message = beautify(message, null, 2, 50)
+            message = pretty(message)
             
             return this.bot.sendMessage('<code>' + message + '</code>', { parse_mode: 'html' })
         }
