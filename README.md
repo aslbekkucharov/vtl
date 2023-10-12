@@ -42,7 +42,7 @@ $vtl.sendLog('Your message')
 |:--------------------------------|:--------------|:---------|:---------------------------------------------------------|
 | chatId `string or number`       | -             | true     | Your chat id where messages will be sent                 |
 | token `string`                  | -             | true     | Telegram bot token                                       |
-| sendAsCode `boolean`            | true          | false    | If set to true, message will be sent as monospace format |
+| shouldBeFormatted `boolean`     | false         | false    | If set to true, message will be sent as monospace format |
 
 ## License
 
