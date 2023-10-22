@@ -45,7 +45,17 @@ $vtl.sendLog('Your message')
 
 <script>
 
-this.$vtl.sendLog('Your message')
+export default {
+  methods: {
+    fetchData() {
+      try {
+        // fetch logic
+      } catch(e) {
+        this.$vtl.sendLog('Error is: ' + e.message)
+      }
+    }
+  }
+}
 
 </script>
 
