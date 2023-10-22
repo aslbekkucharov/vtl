@@ -30,9 +30,7 @@ Vue.use(Vtl, options)
 #### Sending message
 
 ```js
-Vue 3
-
-// SomeVueComponent.vue
+// Vue 3 SomeVueComponent.vue
 
 <script>
 import { inject } from 'vue
@@ -43,8 +41,7 @@ $vtl.sendLog('Your message')
 
 </script>
 
-Vue 2
-
+// Vue 2 SomeComponent.vue
 <script>
 this.$vtl.sendLog('Your message')
 </script>
