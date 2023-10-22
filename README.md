@@ -10,16 +10,16 @@ Currently there is no way to hide the bot token and chat id when sending a reque
 
 Via package managers
 ```sh
-$ npm install vtl
+$ npm install vue-telegram-logger
 
 # yarn
-$ yarn add vtl
+$ yarn add vue-telegram-logger
 ```
 
 ## Usage
 
 ```js
-import { Vtl } from 'vtl'
+import { Vtl } from 'vue-telegram-logger'
 
 Vue.use(Vtl, options)
 
