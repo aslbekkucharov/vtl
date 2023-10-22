@@ -66,6 +66,12 @@ export default {
 |:--------------------------------|:--------------|:---------|:---------------------------------------------------------|
 | chatId `string or number`       | -             | true     | Your chat id where messages will be sent                 |
 | token `string`                  | -             | true     | Telegram bot token                                       |
+| codeLang `string`               | js            | false    | Language to highlight in telegram                        |
+
+## sendLog options
+| Param                           | Default value | Required | Description                                              |
+|:--------------------------------|:--------------|:---------|:---------------------------------------------------------|
+| lang `string`                   | js            | false    | Language to highlight in telegram                        |
 | shouldBeFormatted `boolean`     | false         | false    | If set to true, message will be sent as monospace format |
 
 ## License
