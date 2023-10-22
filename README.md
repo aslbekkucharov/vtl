@@ -42,8 +42,11 @@ $vtl.sendLog('Your message')
 </script>
 
 // Vue 2 SomeComponent.vue
+
 <script>
+
 this.$vtl.sendLog('Your message')
+
 </script>
 
 ```
