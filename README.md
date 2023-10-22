@@ -30,6 +30,8 @@ Vue.use(Vtl, options)
 #### Sending message
 
 ```js
+Vue 3
+
 // SomeVueComponent.vue
 
 <script>
@@ -40,6 +42,13 @@ const $vtl = inject('$vtl')
 $vtl.sendLog('Your message')
 
 </script>
+
+Vue 2
+
+<script>
+this.$vtl.sendLog('Your message')
+</script>
+
 ```
 
 ## Options
